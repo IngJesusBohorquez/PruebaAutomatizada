@@ -1,0 +1,14 @@
+{
+  "name": "dispatch-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:ui": "playwright test tests/ui",
+    "test:smoke": "playwright test tests/smoke",
+    "test:all": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
